@@ -1,0 +1,111 @@
+:root {
+  --brand-color: #0ea5e9;
+  --dark-color: #0f172a;
+  --mid-color: #cbd5e1;
+  --light-color: #ffffff;
+  --cta-color: yellow;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: var(--dark-color);
+  font-family: "Verdana", cursive, sans-serif;
+  color: var(--light-color);
+}
+
+/*  Header */
+.header {
+  background-color: var(--dark-color);
+  color: var(--mid-color);
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/*  Question + Answer div */
+.app {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  width: 60%;
+  max-width: 500px;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/*  Questions */
+.question {
+  color: var(--light-color);
+  padding: 1rem;
+}
+
+.question-number span {
+  font-size: 28px;
+}
+
+.question-number {
+  color: aqua;
+  font-weight: bolder;
+}
+
+.question-text {
+  color: var(--light-color);
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+/*  Answers */
+.answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Option button */
+
+.options {
+  background-color: var(--brand-color);
+  color: var(--light-color);
+  font-size: 1.3rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: none;
+}
+
+.options:hover {
+  background-color: #2e3851;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+
+/* Final Score */
+.finalScore {
+  font-size: 2rem;
+  color: yellow;
+}
+
+/*  Restart button */
+.restart {
+  background-color: var(--cta-color);
+  color: var(--dark-color);
+  font-size: 1.3rem;
+  margin: 1.3rem;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+.restart:hover {
+
+  background-color: white;
+}
